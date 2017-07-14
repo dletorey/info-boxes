@@ -1,0 +1,98 @@
+.information-boxes {
+      color: #fff;
+      text-align: center;
+    }
+    
+    .information-boxes__item {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin: 40px 0px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    
+    .information-boxes__item h2 {
+      border-bottom: 1px solid white;
+      font-weight: 600;
+      display: block;
+      margin: 10px auto;
+      padding: 15px;
+    }
+    
+    .information-boxes__item h3 {
+      font-weight: 600;
+    }
+    
+    .information-boxes__item-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-position: 50%;
+    }
+    
+    .information-boxes__item-info {
+        position:relative;
+    }
+    
+    .information-boxes__item-info-address {
+      margin-bottom: 20px;
+    }
+    
+    .information-boxes__item-info-address p {
+      margin: 0;
+    }
+    
+    .information-boxes__item-info-phone {
+      font-weight: 900;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .information-boxes__item-info-mail {
+      margin-top: 0px;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .information-boxes__item-info a {
+        color:white !important;
+    }
+    
+    .clearfix {
+      *zoom: 1;
+    }
+    
+    .clearfix:before, .clearfix:after {
+      content: '';
+      display: table;
+      line-height: 0;
+    }
+    
+    .clearfix:after {
+      clear: both;
+    }
+    
+    .information-boxes.clearfix h2, .information-boxes.clearfix h3, .information-boxes.clearfix p {
+        color: white;
+    }
+    
+    .information-boxes.clearfix h2 {
+        z-index: 10;
+        position: relative;
+    }
+    
+    [contenteditable],[contenteditable]:focus,[contenteditable]:active  {
+        border: 1px dotted #fff;
+    }
+    
+    #tmpedit_id-%asset_assetid% .schemaHeading_0,
+    #tmpedit_id-%asset_assetid% .sectionHeading_0,
+    #tmpedit_id-%asset_assetid% .sectionHeading_1,
+    #tmpedit_id-%asset_assetid% div .section_0,
+    #tmpedit_id-%asset_assetid% div .section_1,
+    #tmpedit_id-%asset_assetid% > .tmpedit_metadata-values-wrapper > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-of-type(1),
+    #tmpedit_id-%asset_assetid% > .tmpedit_metadata-values-wrapper > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-of-type(2) {
+      display:none;
+    }
